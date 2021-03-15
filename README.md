@@ -9,7 +9,7 @@
 ## How to run the app 
 Inside a folder, run:
 ```bash
-$ git clone https://github.com/HMDarkFir3/password-generator.git
+$ git clone https://github.com/HMDarkFir3/binTodec.git
 ```
 At the root of the project, run:
 ```bash
