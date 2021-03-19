@@ -11,6 +11,14 @@ Um aplicativo mobile bem simple que converte números binários para números de
 
 ---
 
+## ⚙️ Funcionalidades
+
+- [x] Escrever o número binário.
+
+---
+
+---
+
 ## 📂 Como rodar este projeto
 
 Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com) e [NodeJs](https://nodejs.org/en/) Instalado em seu computador.
