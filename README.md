@@ -6,26 +6,33 @@
 
 <hr>
 
-## How to run the app 
-Inside a folder, run:
+## 📋 Sobre
+Um aplicativo mobile bem simple que converte números binários para números decimais.
+
+<hr>
+
+## 📂 Como rodar o projeto
+
 ```bash
-$ git clone https://github.com/HMDarkFir3/binTodec.git
-```
-At the root of the project, run:
-```bash
+#  Clone o repositório:
+git clone https://github.com/HMDarkFir3/binTodec.git
+
+# Entrar no diretório
+cd binTodec
+
+# Instalar as dependências
 npm install  
-or 
+ou
 yarn install
-```
-After installing the project dependencies, run:
-```bash
+
+# Iniciar o projeto
 expo start
 ```
 <hr>
 
-# Technologies 
-
-The following tools were used in the construction of the project:
+## 🚀 Tecnologias Utilizadas
+ 
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [React Native](https://reactnative.dev)
 - [Expo](https://expo.io)
@@ -33,7 +40,7 @@ The following tools were used in the construction of the project:
 
 <hr>
 
-## Author 
+## 🧑 Autor
 
 <img style="border-radius: 50%;" src="https://github.com/HMDarkFir3.png" width="100px;" alt=""/>
  <h4>Henrique Luís Oliveira Marques</h4>
@@ -42,8 +49,7 @@ The following tools were used in the construction of the project:
 
 <hr>
 
-## License
-This project is under the license [MIT](./LICENSE)
+## 📝 Licença
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](./LICENSE) para saber mais. 
 <br>
-👋🏽 [Get in Touch!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
-
+👋🏽 [Entre em contato!](https://www.linkedin.com/in/henrique-luís-oliveira-marques-3406361a7/)
