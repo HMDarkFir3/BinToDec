@@ -21,7 +21,7 @@ Um aplicativo mobile bem simple que converte números binários para números de
 
 ## 📂 Como rodar este projeto
 
-Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com) e [NodeJs](https://nodejs.org/en/) Instalado em seu computador.
+Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs](https://nodejs.org/en/) e [Android Studio](https://developer.android.com/studio) Instalado em seu computador.
 
 ### 🌀 Clonando o repositório
 
