@@ -1,7 +1,7 @@
 <h1 align="center"> Binary to Decimal</h1>
 
 <h1 align="center">
-  🚀 Concluded 🚀
+  🚀 Concluído 🚀
 </h1>
 
 <p align="center" >
