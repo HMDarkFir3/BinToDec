@@ -39,10 +39,10 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/HMDarkFir3/binTodec.git
+$ git clone https://github.com/HMDarkFir3/BinToDec.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd binTodec
+$ cd BinToDec
 ```
 
 ### 🎲 Rodando a Aplicação
