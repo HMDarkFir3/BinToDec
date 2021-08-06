@@ -1,11 +1,12 @@
 //React
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import {
   SafeAreaView,
   View,
   Text,
   TextInput,
   TouchableOpacity,
+  Keyboard,
 } from "react-native";
 
 //Style
@@ -19,6 +20,8 @@ export default function App() {
   const [converted, setConverted] = useState(null);
   const [error, setError] = useState(null);
 
+  const inputRef = useRef(null);
+
   function handleSubmit() {
     if (input === "") {
       setError("Digite algum número binário");
@@ -27,9 +30,12 @@ export default function App() {
 
     if (input.match(/^[0-1]+$/g) === null) {
       setError("Digite somente 1 ou 0");
+      setInput("");
       return;
     }
 
+    Keyboard.dismiss();
+    inputRef.current?.blur();
     setInput("");
     setError(null);
 
@@ -43,6 +49,11 @@ export default function App() {
     setConverted(result);
   }
 
+  function closeInput() {
+    inputRef.current?.blur();
+    Keyboard.dismiss();
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <Octicons
@@ -53,9 +64,13 @@ export default function App() {
       />
       <View style={styles.inputBox}>
         <TextInput
+          ref={inputRef}
           value={input}
           placeholder="Digite o número binário"
           onChangeText={(value) => setInput(value)}
+          returnKeyType="send"
+          onSubmitEditing={handleSubmit}
+          autoCorrect={false}
           style={styles.input}
         />
       </View>
@@ -66,7 +81,11 @@ export default function App() {
 
       {error && <Text style={styles.error}>{error}</Text>}
 
-      <TouchableOpacity style={styles.buttonSubmit} onPress={handleSubmit}>
+      <TouchableOpacity
+        style={styles.buttonSubmit}
+        onPress={handleSubmit}
+        opacity={0.4}
+      >
         <Text style={styles.buttonText}>Enviar</Text>
       </TouchableOpacity>
     </SafeAreaView>
