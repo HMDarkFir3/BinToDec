@@ -25,6 +25,10 @@ Um aplicativo mobile bem simple que converte números binários para números de
 
 ---
 
+## Demonstração da Aplicação
+
+<img src="./src/assets/gif/demonstration.gif" align="center" min-width="300px" max-width="550px" width="300px" />
+
 ## 📂 Como rodar este projeto
 
 Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs](https://nodejs.org/en/) e [Android Studio](https://developer.android.com/studio) Instalado em seu computador.
