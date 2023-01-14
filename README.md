@@ -15,13 +15,15 @@
 ---
 
 ## 📋 Sobre
-Um aplicativo mobile bem simple que converte números binários para números decimais.
+Um aplicativo mobile que converte números binários para números decimais.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Escrever o número binário.
+- [x] Input de número.
+- [x] Validação do input para escrever somente 0 e 1.
+- [x] Conversào para número decimal.
 
 ---
 
@@ -37,10 +39,10 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/HMDarkFir3/BinToDec.git
+$ git clone https://github.com/HMDarkFir3/bin-to-dec.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd BinToDec
+$ cd bin-to-dec
 ```
 
 ### 🎲 Rodando a Aplicação
