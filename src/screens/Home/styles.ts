@@ -1,44 +1,36 @@
-//Style
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#ffffff",
     alignItems: "center",
     justifyContent: "center",
-
-    backgroundColor: "#f3f3f3",
+    paddingHorizontal: 20,
   },
   logo: {
-    marginBottom: 30,
+    marginBottom: 28,
   },
-  inputBox: {
+  convertedWrapper: {
     alignItems: "center",
     justifyContent: "center",
-
-    width: "80%",
-    height: 50,
-
-    marginTop: 10,
-
+    width: "100%",
+    height: 52,
+    marginTop: 8,
+    fontSize: 16,
     borderColor: "#77dd77",
     borderWidth: 3,
     borderRadius: 8,
   },
-  input: {
-    width: "90%",
-    height: 50,
-
-    fontSize: 18,
-
-    borderRadius: 8,
-  },
-  decText: {
-    fontSize: 18,
-    color: "#000000",
+  converted: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#77dd77",
   },
   error: {
-    fontSize: 18,
+    marginTop: 4,
+    fontSize: 16,
+    fontWeight: "bold",
     color: "#ff0000",
   },
 });
