@@ -14,7 +14,7 @@ export const Home: FC = () => {
 
   const inputRef = useRef<TextInput>(null);
 
-  function handleSubmit() {
+  function onSubmit() {
     if (input === "") {
       setError("Digite algum número binário");
       return;
@@ -55,10 +55,11 @@ export const Home: FC = () => {
         ref={inputRef}
         value={input}
         placeholder="Digite o número binário"
-        onChangeText={(value) => setInput(value)}
+        onChangeText={setInput}
         returnKeyType="send"
-        onSubmitEditing={handleSubmit}
+        onSubmitEditing={onSubmit}
         autoCorrect={false}
+        keyboardType="numeric"
       />
 
       <View style={styles.convertedWrapper}>
@@ -67,7 +68,7 @@ export const Home: FC = () => {
 
       {error && <Text style={styles.error}>{error}</Text>}
 
-      <Button title="Converter" onPress={handleSubmit} />
+      <Button title="Converter" onPress={onSubmit} />
     </SafeAreaView>
   );
 };

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BinToDec",
-    "slug": "BinToDec",
+    "name": "bintodec",
+    "slug": "bintodec",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,11 +22,26 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#ffffff"
       }
     },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "flipper": true
+          }
+        }
+      ]
+    ],
     "experiments": {
       "tsconfigPaths": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9e610985-cb3a-43ab-a9bf-73bcf363096c"
+      }
     }
   }
 }
